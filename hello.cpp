@@ -12,5 +12,10 @@ int main()
 	
 	cout<<"shrey";
 	cout<<"\nPramod";
+	int i=0;
+	go:
+	cout<<"hello from github";
+	if(++i>10) break;
+	goto go;
 	return 0;
 }
